@@ -1,0 +1,42 @@
+
+body{
+
+    height:2500px;
+}
+
+
+
+.menu2{
+    list-style-type: none;
+   
+
+    /*background-color: aqua; */
+    width:100%;
+    text-align: center;
+  
+   }
+   
+   .menu2 li{
+   display: inline-block;
+   width:23%;
+   height:44px;
+   /* background-color: blanchedalmond; */
+   }
+   
+   
+   .menu2 li a
+   {
+   text-decoration: underline;
+   border-right: 1px solid #0e0d0d;
+   display: inline-block;
+  
+   height:20px;  
+   width:100%;
+   }
+   
+   
+   .menu2 li a:hover{
+   
+       background-color: orange;
+   }
+   
