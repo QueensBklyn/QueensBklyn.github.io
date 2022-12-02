@@ -1,0 +1,203 @@
+body {
+    background-color: #f7f3c1;
+}
+
+.header {
+    background-color: #f7f3c1;
+    /* padding: 10px; */
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.logo {
+    width: 85px !important;
+    height: 85px !important;
+    border: 1px solid #e5e5e5;
+    border-radius: 15px;
+    transition: transform 0.5s linear;
+}
+
+.logo:hover {
+    /* zoom effect */
+    transform: scale(1.1);
+}
+
+.header-tagline {
+    transition: transform 0.5s linear;
+}
+
+.header-tagline:hover {
+    transform: translateY(-15px);
+}
+
+.header-title {
+    color: #99971e;
+}
+
+#offer-place-slideshow .carousel-item {
+    padding: 25px;
+    font-size: 15px;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: center;
+}
+
+#offer-place-slideshow .carousel-item span {
+    font-size: 20px;
+}
+
+#offer-place-slideshow .offer-1 {
+    background-color: #cfcc06;
+}
+
+#offer-place-slideshow .offer-2 {
+    background-color: #727002;
+}
+
+#offer-place-slideshow .offer-3 {
+    background-color: #4e4e33;
+    color: white;
+}
+
+.hero-image1 {
+    /*background-image: url("https://thumbs.dreamstime.com/b/tulips-vase-4701453.jpg");*/
+   
+    background-image: url(images/intro_img2.jpg);
+    background-color: #cccccc;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image1 .hero-text {
+    position: absolute;
+    top: 45%;
+    left: 15px;
+    width: 400px;
+    height: 20%;
+    border: 3px solid #ffffff;
+    background-color: #afaeae;
+    padding: 25px;
+}
+.flex-container {
+    display: flex;
+    /*background-color: DodgerBlue;*/
+  }
+
+.flex-container div {
+    background-color: #f1f1f1;
+    width: 400px;
+    height: 20%;
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+  }
+ 
+
+
+.hero-image2 {
+    background-image: url("https://cdn.freeimage.me/images/16184689471958829756.jpg");
+    background-color: #cccccc;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image2 .hero-text {
+    padding-top: 25px;
+    color: #cccccc;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.123));
+}
+
+.footer-section a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.social-links li {
+    display: inline;
+    color: black !important;
+    background-color: azure;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 50%;
+}
+
+.social-links li a {
+    color: black !important;
+}
+/* complete footer css */
+footer {
+    background-color: #232323;
+    /* fonts */
+    font-family: Arial, sans-serif;
+    /* text color */
+    color: white;
+    /* spacings */
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 1.52rem 2.42rem 1.26rem 2.42rem;
+  }
+  
+  /* top_info_links id selector */
+  #top_info_links {
+    /* formatted as flexbox */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-bottom: 2.22rem;
+    padding-bottom: 2.22rem;
+    /* white border */
+    border-bottom: 1px solid white;
+  }
+  
+  /* paragraphs inside top_info_links id selector */
+  #top_info_links p {
+    /* centered */
+    text-align: center;
+  }
+  
+  /* large_fnt class selector */
+  .large_fnt {
+    font-size: 1.28rem;
+  }
+  
+  /* middle_info class selector */
+  .middle_info {
+    display: flex;
+  }
+  
+  .middle_info p {
+    /* pushed to right */
+    margin-left: auto;
+  }
+  
+  .middle_links {
+    display: flex;
+    margin-bottom: 4.22rem;
+  }
+  
+  .soc_links {
+    /* pushed to right */
+    margin-left: auto;
+  }
+  
+  .bottom_info p {
+    text-align: center;
+  }
+  
+  /* all social images css */
+  .soc_links img {
+    height: 52px;
+    margin: 1rem;
+    /* rounded social images */
+    border-radius: 50% 50%;
+  }
+  
